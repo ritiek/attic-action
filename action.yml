@@ -25,6 +25,9 @@ inputs:
   skip-use:
     description: "Set to true to skip using Attic cache as a substituter"
     required: false
+  create:
+    description: "Create cache if it doesn't exist"
+    required: false
 
 runs:
   using: "node20"
